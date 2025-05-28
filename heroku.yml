@@ -1,6 +1,6 @@
 build:
   docker:
-    web: Dockerfile
+    cleanup: Dockerfile
 
 run:
-  web: metabase
+  cleanup: echo "Cleaning registry"
