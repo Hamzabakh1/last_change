@@ -1,2 +1,1 @@
-FROM busybox
-CMD echo "Metabase container cleared ✅"
+FROM metabase/metabase:v0.54.10
